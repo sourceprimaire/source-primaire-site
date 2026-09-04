@@ -245,8 +245,11 @@ textarea {
 
 .process-item h2 {
   margin: 0 0 34px;
-  font-size: 1rem;
-  font-weight: 700;
+  color: var(--muted);
+  font-size: var(--menu-size);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .process-item > p:last-child {
