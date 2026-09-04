@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="prose">
               <p>
                 Source Primaire réunit les compétences de deux professionnels dont les
-                parcours se croisent autour d&apos;une même exigence : documenter, comprendre et
+                parcours se croisent autour d&apos;une même exigence : documenter, comprendre et
                 transmettre les histoires des œuvres, des objets et des collections.
               </p>
               <p>
@@ -47,7 +47,7 @@ export default function AboutPage() {
               <p>
                 Ensemble, ils mettent en commun leurs savoir-faire afin d&apos;offrir une approche
                 globale de l&apos;inventaire, de la numérisation et de la valorisation des
-                collections. Leur complémentarité repose sur une même méthode : observer avec
+                collections. Leur complémentarité repose sur une même méthode : observer avec
                 rigueur, rechercher les sources, établir les faits, documenter avec précision
                 et restituer chaque collection dans son contexte.
               </p>

@@ -41,7 +41,7 @@ export const editions: Edition[] = [
     ],
     paragraphs: [
       'Neighbors rassemble une série de 32 photographies réalisées par Émilie Girault pendant le confinement du printemps 2020.',
-      'Des lieux de vie, éclairés mais dépourvus de vie, aucune présence humaine. Le projet Neighbors recrée un immeuble, mettant en exergue l’isolement de personnes vivant côte à côte, chacun se retrouvant ensemble séparément. Les appartements sont identifiés par des lettres et des chiffres indiquant leur positionnement les uns par rapport aux autres, tout en faisant écho aux positions d’une bataille navale, dans une période qualifiée de guerre. Les décors et les lumières parlent à la place de leurs occupants et laissent libre cours à l’imagination de l’observateur : qui sont-ils ? Que font-ils ? Comment vivent-ils ? Autant de questions qui ramènent chaque individu à sa propre réalité.',
+      'Des lieux de vie, éclairés mais dépourvus de vie, aucune présence humaine. Le projet Neighbors recrée un immeuble, mettant en exergue l’isolement de personnes vivant côte à côte, chacun se retrouvant ensemble séparément. Les appartements sont identifiés par des lettres et des chiffres indiquant leur positionnement les uns par rapport aux autres, tout en faisant écho aux positions d’une bataille navale, dans une période qualifiée de guerre. Les décors et les lumières parlent à la place de leurs occupants et laissent libre cours à l’imagination de l’observateur : qui sont-ils ? Que font-ils ? Comment vivent-ils ? Autant de questions qui ramènent chaque individu à sa propre réalité.',
     ],
     metadata: ['ISBN 491-3-3574186-8-1'],
   },
@@ -84,7 +84,7 @@ export const editions: Edition[] = [
     ],
     paragraphs: [
       'Ce qui reste est un projet d’identité visuelle conçu pour une exposition photographique fictive de Léonie Vaurel à la Maison Européenne de la Photographie.',
-      'La série observe des présences fragiles : un regard filtré par le verre, une lumière sur un mur, un arbre isolé dans la brume, un intérieur presque désert. Le dépliant à quatre volets se construit comme une séquence, alternant photographies, fragments de planche contact et espaces silencieux.',
+      'La série observe des présences fragiles : un regard filtré par le verre, une lumière sur un mur, un arbre isolé dans la brume, un intérieur presque désert. Le dépliant à quatre volets se construit comme une séquence, alternant photographies, fragments de planche contact et espaces silencieux.',
       'Une palette pâle de bleus, de gris et de rouges atténués accompagne un système typographique sobre. L’ensemble explore la mémoire comme une matière instable, prise entre apparition, effacement et retour.',
     ],
     metadata: [
