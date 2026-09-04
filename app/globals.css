@@ -236,7 +236,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(28px, 3vw, 52px);
-  margin-top: clamp(130px, 19vh, 210px);
+  margin-top: clamp(36px, 5vh, 54px);
 }
 
 .process-item {
