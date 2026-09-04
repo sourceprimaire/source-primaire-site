@@ -140,7 +140,7 @@ textarea {
   display: grid;
   grid-template-columns: var(--media-column) minmax(300px, 620px);
   gap: var(--content-gap);
-  align-items: flex-start;
+  align-items: center;
 }
 
 .home-figure {
@@ -157,7 +157,7 @@ textarea {
 }
 
 .home-statement {
-  margin: 52px 0 0;
+  margin: 0;
   font-size: 0.875rem;
 }
 
