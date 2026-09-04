@@ -52,7 +52,7 @@ export default function AboutPage() {
                 et restituer chaque collection dans son contexte.
               </p>
               <p>
-                Au cœur de Source Primaire se trouve une conviction simple : toute collection
+                Au cœur de Source Primaire se trouve une conviction simple : toute collection
                 raconte une histoire. Qu&apos;il s&apos;agisse d&apos;une œuvre d&apos;art, d&apos;une archive
                 familiale, d&apos;un fonds d&apos;atelier ou d&apos;un objet du quotidien, chaque pièce
                 constitue un témoignage qui mérite d&apos;être identifié, étudié, préservé et
