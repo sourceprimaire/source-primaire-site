@@ -121,7 +121,7 @@ textarea {
   left: var(--edge);
   display: flex;
   gap: 18px;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   letter-spacing: 0.075em;
   white-space: nowrap;
 }
@@ -483,6 +483,21 @@ textarea {
   align-items: start;
 }
 
+.contact-image {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 100%;
+  margin: 0;
+}
+
+.contact-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 24%;
+}
+
 .contact-heading,
 .contact-form {
   grid-column: 2;
@@ -638,6 +653,7 @@ textarea {
   .research-intro > div,
   .research-image,
   .editions-image,
+  .contact-image,
   .editions-intro > div,
   .editions-intro .lead,
   .edition-title,
