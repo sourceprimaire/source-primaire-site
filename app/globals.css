@@ -291,7 +291,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(58px, 7vw, 100px) clamp(20px, 2vw, 34px);
-  margin-top: clamp(130px, 19vh, 210px);
+  margin-top: clamp(36px, 5vh, 54px);
 }
 
 .edition-card {
