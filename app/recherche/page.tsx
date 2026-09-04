@@ -33,6 +33,15 @@ export default function RecherchePage() {
               institutions et entreprises dans l&apos;inventaire, la numérisation et la
               valorisation de leurs collections, archives et patrimoines.
             </p>
+            <section className="process-list" aria-label="Méthode">
+              {steps.map((step) => (
+                <article className="process-item" key={step.number}>
+                  <p className="item-number">{step.number}</p>
+                  <h2>{step.title}</h2>
+                  <p>{step.text}</p>
+                </article>
+              ))}
+            </section>
           </div>
           <figure className="research-image">
             <img
@@ -44,15 +53,6 @@ export default function RecherchePage() {
           </figure>
         </header>
 
-        <section className="process-list" aria-label="Méthode">
-          {steps.map((step) => (
-            <article className="process-item" key={step.number}>
-              <p className="item-number">{step.number}</p>
-              <h2>{step.title}</h2>
-              <p>{step.text}</p>
-            </article>
-          ))}
-        </section>
       </main>
     </SiteShell>
   );

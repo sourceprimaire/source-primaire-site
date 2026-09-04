@@ -234,9 +234,9 @@ textarea {
 
 .process-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(28px, 3vw, 52px);
-  margin-top: clamp(36px, 5vh, 54px);
+  grid-template-columns: 1fr;
+  gap: 42px;
+  margin-top: 52px;
 }
 
 .process-item {
@@ -244,7 +244,7 @@ textarea {
 }
 
 .process-item h2 {
-  margin: 0 0 34px;
+  margin: 0 0 18px;
   color: var(--muted);
   font-size: var(--menu-size);
   font-weight: 400;
@@ -698,13 +698,16 @@ textarea {
     width: min(100%, 520px);
   }
 
-  .process-list,
   .edition-grid,
   .service-grid,
   .client-grid {
     grid-template-columns: 1fr;
     gap: 64px;
     margin-top: 110px;
+  }
+
+  .process-list {
+    margin-top: 52px;
   }
 
   .service-grid {
