@@ -241,7 +241,6 @@ textarea {
 
 .process-item {
   padding-top: 15px;
-  border-top: 1px solid var(--rule);
 }
 
 .process-item h2 {
