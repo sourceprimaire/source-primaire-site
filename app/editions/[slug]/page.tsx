@@ -36,27 +36,32 @@ export default async function EditionPage({
     <SiteShell active="/editions/">
       <main className="page-content edition-detail">
         <header className="edition-header">
-          <div className="edition-title">
-            <p className="eyebrow">ÉDITION {edition.index}</p>
-            <h1>{edition.title}</h1>
-            <p>{edition.type}</p>
-          </div>
-          <div className="edition-copy">
-            {edition.paragraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-            <div className="edition-meta">
-              {edition.metadata.map((item) => (
-                <p key={item}>{item}</p>
+          <figure className="edition-feature">
+            <img src={edition.images[0]} alt={edition.title} />
+          </figure>
+          <div className="edition-content">
+            <div className="edition-title">
+              <p className="eyebrow">ÉDITION {edition.index}</p>
+              <h1>{edition.title}</h1>
+            </div>
+            <div className="edition-copy">
+              {edition.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
               ))}
+              <div className="edition-meta">
+                <p>{edition.type}</p>
+                {edition.metadata.map((item) => (
+                  <p key={item}>{item}</p>
+                ))}
+              </div>
             </div>
           </div>
         </header>
 
         <section className={`edition-gallery gallery-${edition.slug}`}>
-          {edition.images.map((image, index) => (
-            <figure key={image} className={index === 0 ? 'gallery-cover' : undefined}>
-              <img src={image} alt={`${edition.title}, vue ${index + 1}`} />
+          {edition.images.slice(1).map((image, index) => (
+            <figure key={image}>
+              <img src={image} alt={`${edition.title}, vue ${index + 2}`} />
             </figure>
           ))}
         </section>

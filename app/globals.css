@@ -342,13 +342,25 @@ textarea {
   row-gap: 0;
 }
 
-.edition-title,
-.edition-copy {
+.edition-feature {
+  grid-column: 1;
+  width: 100%;
+  margin: 0;
+}
+
+.edition-feature img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.edition-content {
   grid-column: 2;
 }
 
 .edition-copy {
-  margin-top: 34px;
+  margin-top: 12px;
 }
 
 .edition-title > p:last-child {
@@ -394,11 +406,6 @@ textarea {
   display: block;
   width: 100%;
   height: auto;
-}
-
-.edition-gallery .gallery-cover {
-  grid-column: 1 / -1;
-  width: min(54%, 620px);
 }
 
 .gallery-ce-qui-reste figure:nth-child(n + 4) {
@@ -659,6 +666,8 @@ textarea {
   .editions-intro .lead,
   .edition-title,
   .edition-copy,
+  .edition-feature,
+  .edition-content,
   .contact-heading,
   .contact-form {
     grid-column: auto;
