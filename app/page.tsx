@@ -13,6 +13,7 @@ export default function Home() {
             height="1793"
           />
         </figure>
+        <p className="home-statement">Toute collection raconte une histoire</p>
       </main>
     </SiteShell>
   );

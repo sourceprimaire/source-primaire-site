@@ -137,7 +137,9 @@ textarea {
 }
 
 .home-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: var(--media-column) minmax(300px, 620px);
+  gap: var(--content-gap);
   align-items: flex-start;
 }
 
@@ -152,6 +154,11 @@ textarea {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
+}
+
+.home-statement {
+  margin: 52px 0 0;
+  font-size: 0.875rem;
 }
 
 .visually-hidden {
@@ -643,6 +650,15 @@ textarea {
 
   .home-figure {
     width: min(100%, 470px);
+  }
+
+  .home-content {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .home-statement {
+    margin: 0;
   }
 
   .site-footer {
