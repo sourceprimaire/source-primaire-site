@@ -175,7 +175,7 @@ textarea {
 .item-number {
   margin: 0 0 13px;
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: var(--menu-size);
   letter-spacing: 0.08em;
 }
 
@@ -184,7 +184,7 @@ textarea {
 .contact-heading h1,
 .clients-page h1 {
   margin: 0;
-  font-size: clamp(1.25rem, 1.65vw, 1.625rem);
+  font-size: var(--menu-size);
   font-weight: 400;
   letter-spacing: 0.015em;
   line-height: 1.15;
