@@ -10,6 +10,12 @@ export default function EditionsPage() {
     <SiteShell active="/editions/">
       <main className="page-content standard-page">
         <header className="page-intro editions-intro">
+          <figure className="editions-image">
+            <img
+              src="/assets/editions/summer-24/cover.jpg"
+              alt="Summer 24, publication photographique"
+            />
+          </figure>
           <div>
             <p className="eyebrow">ÉDITIONS</p>
             <h1>Publications</h1>

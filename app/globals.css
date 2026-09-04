@@ -262,6 +262,20 @@ textarea {
   row-gap: 0;
 }
 
+.editions-image {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 100%;
+  margin: 0;
+}
+
+.editions-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
 .editions-intro .lead {
   grid-column: 2;
   max-width: 720px;
@@ -274,8 +288,8 @@ textarea {
 
 .edition-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(70px, 8vw, 130px) clamp(32px, 4vw, 70px);
+  grid-template-columns: repeat(2, minmax(0, 310px));
+  gap: clamp(58px, 7vw, 100px) clamp(28px, 3vw, 52px);
   margin-top: clamp(130px, 19vh, 210px);
 }
 
@@ -309,8 +323,7 @@ textarea {
   display: grid;
   grid-template-columns: 38px minmax(0, 1fr) auto;
   gap: 10px;
-  padding-top: 13px;
-  border-top: 1px solid var(--ink);
+  padding-top: 10px;
   font-size: 0.75rem;
   letter-spacing: 0.035em;
 }
@@ -625,6 +638,7 @@ textarea {
 
   .research-intro > div,
   .research-image,
+  .editions-image,
   .editions-intro > div,
   .editions-intro .lead,
   .edition-title,
