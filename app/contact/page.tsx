@@ -9,8 +9,8 @@ export default function ContactPage() {
       <main className="page-content standard-page contact-page">
         <figure className="contact-image">
           <img
-            src="/assets/editions/ce-qui-reste/detail-01.jpg"
-            alt="Jeu de lumière et d’ombre sur un mur"
+            src="/assets/editions/pss01/cover.jpg"
+            alt="Couverture de la publication PSS01"
           />
         </figure>
         <header className="contact-heading">
