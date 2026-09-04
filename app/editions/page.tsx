@@ -19,11 +19,9 @@ export default function EditionsPage() {
           <div>
             <h1 className="eyebrow">ÉDITIONS</h1>
             <p className="lead">
-              Primary Source is an independent publishing house dedicated to the intersection
-              of narrative and sound. We curate works that serve as sonic documents, where
-              every release begins with a story and ends with a listening experience. Our
-              editorial vision values curiosity, thoughtful ideas, and the meticulous
-              craftsmanship required for long-term archival value.
+              Nous accompagnons les artistes, auteurs, photographes et musiciens dans la
+              conception, l&apos;édition et la publication de livres, objets imprimés et éditions
+              sonores qui documentent et prolongent leur travail.
             </p>
           </div>
         </header>
