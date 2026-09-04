@@ -27,8 +27,7 @@ export default function RecherchePage() {
       <main className="page-content standard-page">
         <header className="page-intro research-intro">
           <div>
-            <p className="eyebrow">RECHERCHE</p>
-            <h1>Gestion</h1>
+            <h1 className="eyebrow">RECHERCHE</h1>
             <p className="lead">
               Nous accompagnons les artistes, collectionneurs, ayants droit, familles,
               institutions et entreprises dans l&apos;inventaire, la numérisation et la

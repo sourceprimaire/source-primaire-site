@@ -17,8 +17,7 @@ export default function EditionsPage() {
             />
           </figure>
           <div>
-            <p className="eyebrow">ÉDITIONS</p>
-            <h1>Publications</h1>
+            <h1 className="eyebrow">ÉDITIONS</h1>
           </div>
           <p className="lead">
             Primary Source is an independent publishing house dedicated to the intersection

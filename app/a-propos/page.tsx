@@ -24,8 +24,7 @@ export default function AboutPage() {
             <img src="/assets/pages/a-propos.jpg" alt="Étude de matière et de proportion" />
           </figure>
           <div>
-            <p className="eyebrow">À PROPOS</p>
-            <h1>Source Primaire</h1>
+            <h1 className="eyebrow">À PROPOS</h1>
             <div className="prose">
               <p>
                 Source Primaire réunit les compétences de deux professionnels dont les
