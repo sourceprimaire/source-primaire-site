@@ -523,7 +523,7 @@ textarea {
   display: grid;
   gap: 7px;
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: var(--menu-size);
   letter-spacing: 0.07em;
 }
 
@@ -537,7 +537,7 @@ textarea {
   outline: none;
   background: transparent;
   color: var(--ink);
-  font-size: 0.875rem;
+  font-size: var(--menu-size);
   letter-spacing: 0;
 }
 
@@ -559,7 +559,7 @@ textarea {
   background: transparent;
   color: var(--ink);
   cursor: pointer;
-  font-size: 0.8125rem;
+  font-size: var(--menu-size);
   letter-spacing: 0.07em;
 }
 
