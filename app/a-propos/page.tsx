@@ -20,9 +20,19 @@ export default function AboutPage() {
     <SiteShell active="/a-propos/">
       <main className="page-content standard-page">
         <header className="page-intro about-intro">
-          <figure className="about-image">
-            <img src="/assets/pages/a-propos.jpg" alt="Étude de matière et de proportion" />
-          </figure>
+          <div className="about-media">
+            <figure className="about-image">
+              <img src="/assets/pages/a-propos.jpg" alt="Étude de matière et de proportion" />
+            </figure>
+            <section className="service-grid" aria-label="Compétences">
+              {services.map((service, index) => (
+                <p key={service}>
+                  <span>{String(index + 1).padStart(2, '0')}</span>
+                  <span>{service}</span>
+                </p>
+              ))}
+            </section>
+          </div>
           <div>
             <h1 className="eyebrow">À PROPOS</h1>
             <div className="prose">
@@ -62,14 +72,6 @@ export default function AboutPage() {
           </div>
         </header>
 
-        <section className="service-grid" aria-label="Compétences">
-          {services.map((service, index) => (
-            <p key={service}>
-              <span>{String(index + 1).padStart(2, '0')}</span>
-              <span>{service}</span>
-            </p>
-          ))}
-        </section>
       </main>
     </SiteShell>
   );
