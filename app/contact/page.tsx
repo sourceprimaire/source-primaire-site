@@ -15,7 +15,6 @@ export default function ContactPage() {
         </figure>
         <header className="contact-heading">
           <p className="eyebrow">CONTACT</p>
-          <h1>Écrivez-nous</h1>
         </header>
 
         <form
