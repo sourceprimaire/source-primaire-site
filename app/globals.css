@@ -471,7 +471,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0 38px;
-  margin-top: clamp(130px, 19vh, 210px);
+  margin-top: clamp(42px, 6vh, 64px);
 }
 
 .service-grid p {
