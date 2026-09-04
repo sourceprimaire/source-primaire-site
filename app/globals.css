@@ -263,7 +263,7 @@ textarea {
 
 .editions-image {
   grid-column: 1;
-  grid-row: 1 / span 2;
+  grid-row: 1;
   width: 100%;
   margin: 0;
 }
@@ -276,9 +276,8 @@ textarea {
 }
 
 .editions-intro .lead {
-  grid-column: 2;
   max-width: 720px;
-  margin: 34px 0 0;
+  margin: 42px 0 0;
 }
 
 .editions-intro > div {
