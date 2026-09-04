@@ -10,9 +10,6 @@ export default function ContactPage() {
         <header className="contact-heading">
           <p className="eyebrow">CONTACT</p>
           <h1>Écrivez-nous</h1>
-          <a className="email-link" href="mailto:sourceprimaire.fr@gmail.com">
-            sourceprimaire.fr@gmail.com
-          </a>
         </header>
 
         <form
@@ -37,7 +34,7 @@ export default function ContactPage() {
           </label>
           <label>
             <span>DÉTAILS</span>
-            <textarea name="Détails" rows={8} required />
+            <textarea name="Détails" rows={3} required />
           </label>
           <button type="submit">ENVOYER</button>
         </form>

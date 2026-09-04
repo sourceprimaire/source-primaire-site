@@ -8,8 +8,10 @@
   --edge: clamp(26px, 2.5vw, 46px);
   --content-left: 26vw;
   --content-top: 22.6vh;
-  --body-size: 1rem;
+  --body-size: 0.875rem;
   --menu-size: 0.6875rem;
+  --media-column: clamp(310px, 27vw, 470px);
+  --content-gap: clamp(58px, 6vw, 112px);
   --type: Arial, Helvetica, sans-serif;
 }
 
@@ -182,7 +184,7 @@ textarea {
 .contact-heading h1,
 .clients-page h1 {
   margin: 0;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(1.25rem, 1.65vw, 1.625rem);
   font-weight: 400;
   letter-spacing: 0.015em;
   line-height: 1.15;
@@ -192,16 +194,25 @@ textarea {
 .prose,
 .edition-copy,
 .process-item > p:last-child {
-  font-size: 1rem;
+  font-size: 0.875rem;
   letter-spacing: 0.005em;
   line-height: 1.65;
 }
 
 .research-intro {
   display: grid;
-  grid-template-columns: minmax(310px, 0.95fr) minmax(300px, 0.75fr);
-  gap: clamp(70px, 8vw, 150px);
+  grid-template-columns: var(--media-column) minmax(300px, 620px);
+  gap: var(--content-gap);
   align-items: start;
+}
+
+.research-intro > div {
+  grid-column: 2;
+}
+
+.research-image {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .research-intro .lead {
@@ -245,8 +256,8 @@ textarea {
 
 .editions-intro {
   display: grid;
-  grid-template-columns: minmax(220px, 0.7fr) minmax(400px, 1.3fr);
-  gap: clamp(60px, 8vw, 150px);
+  grid-template-columns: var(--media-column) minmax(300px, 620px);
+  gap: var(--content-gap);
   align-items: start;
 }
 
@@ -305,8 +316,8 @@ textarea {
 
 .edition-header {
   display: grid;
-  grid-template-columns: minmax(250px, 0.8fr) minmax(420px, 1.2fr);
-  gap: clamp(70px, 9vw, 160px);
+  grid-template-columns: var(--media-column) minmax(300px, 620px);
+  gap: var(--content-gap);
   align-items: start;
 }
 
@@ -395,8 +406,8 @@ textarea {
 
 .about-intro {
   display: grid;
-  grid-template-columns: minmax(280px, 0.72fr) minmax(440px, 1.28fr);
-  gap: clamp(70px, 8vw, 150px);
+  grid-template-columns: var(--media-column) minmax(300px, 620px);
+  gap: var(--content-gap);
   align-items: start;
 }
 
@@ -437,23 +448,15 @@ textarea {
 
 .contact-page {
   display: grid;
-  grid-template-columns: minmax(280px, 0.75fr) minmax(450px, 1.25fr);
-  gap: clamp(70px, 9vw, 160px);
-}
-
-.email-link {
-  display: inline-block;
-  margin-top: 40px;
-  font-size: 0.9375rem;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  grid-template-columns: var(--media-column) minmax(300px, 620px);
+  gap: var(--content-gap);
 }
 
 .contact-form {
   display: grid;
-  gap: 32px;
+  gap: 18px;
   width: 100%;
-  max-width: 700px;
+  max-width: 620px;
 }
 
 .field-row {
@@ -464,7 +467,7 @@ textarea {
 
 .contact-form label {
   display: grid;
-  gap: 10px;
+  gap: 7px;
   color: var(--muted);
   font-size: 0.75rem;
   letter-spacing: 0.07em;
@@ -473,14 +476,14 @@ textarea {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px 0;
+  padding: 6px 0;
   border: 0;
   border-bottom: 1px solid var(--ink);
   border-radius: 0;
   outline: none;
   background: transparent;
   color: var(--ink);
-  font-size: 1rem;
+  font-size: 0.875rem;
   letter-spacing: 0;
 }
 
@@ -495,8 +498,8 @@ textarea {
 
 .contact-form button {
   width: max-content;
-  margin-top: 12px;
-  padding: 9px 0;
+  margin-top: 6px;
+  padding: 6px 0;
   border: 0;
   border-bottom: 1px solid var(--ink);
   background: transparent;
@@ -590,6 +593,20 @@ textarea {
   .contact-page {
     grid-template-columns: 1fr;
     gap: 58px;
+  }
+
+  .research-intro > div,
+  .research-image {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .research-intro > div {
+    order: 2;
+  }
+
+  .research-image {
+    order: 1;
   }
 
   .research-intro .lead,
