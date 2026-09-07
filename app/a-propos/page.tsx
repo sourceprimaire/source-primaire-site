@@ -60,7 +60,7 @@ export default function AboutPage() {
                 institutionnels. Au sein de Source Primaire, il conçoit les dispositifs
                 numériques ainsi que le design et l’identité graphique des différents projets.
                 Il réalise également les prises de vue photographiques, en argentique comme en
-                numérique, destinés à documenter et valoriser les collections. Il assure la
+                numérique, destinées à documenter et valoriser les collections. Il assure la
                 direction artistique des éditions.
               </p>
               <p>
