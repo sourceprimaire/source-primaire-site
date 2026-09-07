@@ -4,15 +4,14 @@ import { SiteShell } from '@/components/site-shell';
 export const metadata: Metadata = { title: 'À propos' };
 
 const services = [
-  'Direction éditoriale',
-  'Identité visuelle',
-  'Design graphique',
-  'Édition',
-  'Expériences numériques',
-  'Photographie argentique',
-  'Inventaire',
-  'Documentation',
-  'Valorisation',
+  'INVENTAIRE',
+  'RECHERCHE',
+  'DOCUMENTATION',
+  'NUMÉRISATION',
+  'CONSERVATION',
+  'VALORISATION',
+  'TRANSMISSION',
+  'ÉDITION',
 ];
 
 export default function AboutPage() {
