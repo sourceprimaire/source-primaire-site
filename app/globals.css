@@ -705,7 +705,8 @@ textarea {
   letter-spacing: normal;
 }
 
-.contact-legal-links a {
+.contact-legal-links a,
+.contact-legal-links span {
   font-weight: 400;
   white-space: nowrap;
   text-decoration: underline;

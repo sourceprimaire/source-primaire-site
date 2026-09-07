@@ -44,10 +44,10 @@ export default function ContactPage() {
           </label>
           <button type="submit">ENVOYER</button>
         </form>
-        <nav className="contact-legal-links" aria-label="Informations légales">
-          <a href="/mentions-legales/">Mentions légales</a>
-          <a href="/confidentialite/">Confidentialité</a>
-        </nav>
+        <div className="contact-legal-links" aria-label="Informations légales">
+          <span>Mentions légales</span>
+          <span>Confidentialité</span>
+        </div>
         </div>
       </main>
     </SiteShell>
