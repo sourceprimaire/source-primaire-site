@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { SiteShell } from '@/components/site-shell';
 
 export const metadata: Metadata = { title: 'Contact' };
@@ -46,8 +45,8 @@ export default function ContactPage() {
           <button type="submit">ENVOYER</button>
         </form>
         <nav className="contact-legal-links" aria-label="Informations légales">
-          <Link href="/mentions-legales/">Mentions légales</Link>
-          <Link href="/confidentialite/">Confidentialité</Link>
+          <a href="/mentions-legales/">Mentions légales</a>
+          <a href="/confidentialite/">Confidentialité</a>
         </nav>
         </div>
       </main>
