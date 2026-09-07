@@ -889,7 +889,7 @@ textarea {
   .about-intro,
   .contact-page {
     grid-template-columns: 1fr;
-    gap: 58px;
+    gap: 40px;
   }
 
   .editions-image,
@@ -927,13 +927,29 @@ textarea {
   }
 
   .editions-intro .lead,
-  .edition-copy,
-  .contact-form {
-    margin-top: 0;
+  .edition-copy {
+    margin-top: 24px;
   }
 
   .about-intro .prose {
-    margin-top: 34px;
+    margin-top: 24px;
+  }
+
+  .about-media {
+    display: contents;
+  }
+
+  .about-image {
+    order: 1;
+  }
+
+  .about-intro > div:last-child {
+    order: 2;
+  }
+
+  .service-grid {
+    order: 3;
+    margin-top: 0;
   }
 
   .about-image {
@@ -944,7 +960,7 @@ textarea {
   .client-grid {
     grid-template-columns: 1fr;
     gap: 64px;
-    margin-top: 110px;
+    margin-top: 72px;
   }
 
   .research-page {
@@ -954,6 +970,7 @@ textarea {
 
   .research-composition {
     grid-template-columns: 1fr;
+    row-gap: 40px;
   }
 
   .research-intro-copy,
@@ -963,11 +980,13 @@ textarea {
   }
 
   .research-sequence {
-    height: clamp(178px, 47vw, 300px);
+    height: auto;
+    aspect-ratio: 1;
   }
 
   .research-lead {
     width: min(100%, 390px);
+    margin-top: 24px;
   }
 
   .research-index {

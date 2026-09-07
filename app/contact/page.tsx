@@ -44,13 +44,10 @@ export default function ContactPage() {
             <textarea name="Détails" rows={3} required />
           </label>
           <button type="submit">ENVOYER</button>
-          <p className="contact-privacy">
-            Ce formulaire ouvre votre messagerie. Les informations transmises
-            servent à répondre à votre demande. <Link href="/confidentialite/">Confidentialité</Link>.
-          </p>
         </form>
         <nav className="contact-legal-links" aria-label="Informations légales">
           <Link href="/mentions-legales/">Mentions légales</Link>
+          <Link href="/confidentialite/">Confidentialité</Link>
         </nav>
         </div>
       </main>

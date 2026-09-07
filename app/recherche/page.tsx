@@ -42,7 +42,6 @@ export default function RecherchePage() {
 
           <div className="research-intro-copy">
             <h1 className="section-heading">
-              <span className="section-square section-square-black" aria-hidden="true" />
               <span>RECHERCHE</span>
             </h1>
             <p className="research-lead">

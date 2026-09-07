@@ -18,7 +18,6 @@ export default function EditionsPage() {
           </figure>
           <div>
             <h1 className="eyebrow section-heading">
-              <span className="section-square section-square-red" aria-hidden="true" />
               <span>ÉDITIONS</span>
             </h1>
             <div className="lead">
