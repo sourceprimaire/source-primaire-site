@@ -51,8 +51,8 @@ export default function AboutPage() {
                 droit, collectionneurs et institutions dans l’inventaire, la documentation,
                 la conservation et la valorisation de leur patrimoine. Au sein de Source
                 Primaire, elle pilote la gestion et le suivi des projets
-                ainsi que les recherches scientifiques. Elle assure la direction éditoriale
-                des éditions.
+                ainsi que les recherches documentaires et scientifiques. Elle assure la
+                direction éditoriale des éditions.
               </p>
               <p>
                 <strong>Georges Daou</strong>, architecte, designer et directeur artistique,
@@ -60,12 +60,12 @@ export default function AboutPage() {
                 des agences de design, dans le cadre de projets privés ou d&apos;appels
                 institutionnels. Au sein de Source Primaire, il conçoit les dispositifs
                 numériques ainsi que le design et l’identité graphique des différents projets.
-                Il réalise également les reportages photographiques, en argentique comme en
+                Il réalise également les prises de vue photographiques, en argentique comme en
                 numérique, destinés à documenter et valoriser les collections. Il assure la
                 direction artistique des éditions.
               </p>
               <p>
-                Forts de plus de vingt ans d’expérience chacun dans leur domaine, ils partagent
+                Forts de plus de vingt ans d’expérience dans leurs domaines respectifs, ils partagent
                 une même exigence de rigueur dans la conduite de leurs projets. Ensemble, ils
                 mettent en commun leurs savoir-faire afin d&apos;offrir à chaque collection une
                 lecture à la fois documentée, contextualisée et sensible. De cette

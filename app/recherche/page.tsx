@@ -7,7 +7,7 @@ const steps = [
   {
     number: '01',
     title: 'Inventorier',
-    text: 'Toute collection raconte une histoire. Nous réalisons l’inventaire méthodique des œuvres, archives, objets précieux et objets de mémoire afin d’en établir une connaissance précise. Chaque pièce est identifiée, décrite et photographiée. Cet état des lieux constitue le socle indispensable à toute démarche de recherche, de transmission ou de valorisation.',
+    text: 'Nous réalisons l’inventaire méthodique des œuvres, archives, objets précieux et objets de mémoire afin d’en établir une connaissance précise. Chaque pièce est identifiée, décrite et photographiée. Cet état des lieux constitue le socle indispensable à toute démarche de recherche, de transmission ou de valorisation.',
   },
   {
     number: '02',
@@ -17,12 +17,12 @@ const steps = [
   {
     number: '03',
     title: 'Conserver',
-    text: 'Nous accompagnons la conservation des œuvres et objets dans le temps, en apportant des recommandations adaptées à leur nature et à leur état. Nous assurons également la pérennité des archives en organisant leur classement et leur numérisation. Ces ressources numériques permettent d’en faciliter la consultation et d’en assurer la transmission dans le temps.',
+    text: 'Nous conseillons nos clients sur les conditions de conservation des œuvres et objets dans le temps, en apportant des recommandations adaptées à leur nature et à leur état. Nous contribuons également à la pérennité des archives en organisant leur classement et leur numérisation. Ces ressources numériques permettent d’en faciliter la consultation et d’en assurer la transmission dans le temps.',
   },
   {
     number: '04',
     title: 'Transmettre',
-    text: 'Une collection peut être destinée à différents publics et répondre à des besoins très différents. Nous concevons les formes adaptées à sa transmission : inventaires, dossiers documentaires, publications ou sites Internet, selon les besoins des collectionneurs, artistes, familles, ayants droit, chercheurs, institutions ou entreprises. Qu’il s’agisse de préparer une succession patrimoniale, de transmettre une histoire familiale ou de rendre une collection accessible à la recherche, chaque projet est conçu sur mesure, dans le respect de son histoire et de sa singularité.',
+    text: 'Une collection peut être destinée à différents publics et répondre à différents usages. Nous concevons les formes adaptées à sa transmission : inventaires, dossiers documentaires, catalogues ou sites Internet, selon les besoins de chaque client. Qu’il s’agisse de préparer une succession patrimoniale, de transmettre une histoire familiale ou de rendre une collection accessible à la recherche, chaque projet est pensé dans le respect de son histoire et de sa singularité.',
   },
 ];
 
@@ -46,9 +46,10 @@ export default function RecherchePage() {
               <span>RECHERCHE</span>
             </h1>
             <p className="research-lead">
-              Nous accompagnons les artistes, collectionneurs, ayants droit, familles,
-              institutions et entreprises dans l&apos;inventaire, la numérisation et la
-              valorisation de leurs collections, archives et patrimoines.
+              Nous accompagnons les collectionneurs, artistes, familles, ayants droit,
+              chercheurs, institutions et entreprises dans l&apos;inventaire, la documentation,
+              la conservation et la transmission de leurs collections, archives et patrimoines.
+              Grâce à une méthodologie rigoureuse, chaque pièce révèle son histoire et sa valeur.
             </p>
             <section className="research-index" aria-label="Méthode">
               {steps.map((step) => (
