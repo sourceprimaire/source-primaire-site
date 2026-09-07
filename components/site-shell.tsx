@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import type { ReactNode } from 'react';
 
 const navigation = [
@@ -17,18 +16,18 @@ export function SiteShell({ active, children }: SiteShellProps) {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <Link className="site-name" href="/" aria-label="Source Primaire, accueil">
+        <a className="site-name" href="/" aria-label="Source Primaire, accueil">
           <span>SOURCE PRIMAIRE</span>
-        </Link>
+        </a>
       </header>
 
       <nav className="site-nav" aria-label="Navigation principale">
         <ol>
           {navigation.map((item) => (
             <li key={item.href}>
-              <Link href={item.href} aria-current={active === item.href ? 'page' : undefined}>
+              <a href={item.href} aria-current={active === item.href ? 'page' : undefined}>
                 <span>{item.label}</span>
-              </Link>
+              </a>
             </li>
           ))}
         </ol>
