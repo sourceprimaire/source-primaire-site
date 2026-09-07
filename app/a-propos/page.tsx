@@ -83,36 +83,6 @@ export default function AboutPage() {
                 de nos interventions.
               </p>
             </div>
-            <section className="about-trust" aria-labelledby="about-trust-title">
-              <h2 id="about-trust-title">Ils nous ont fait confiance</h2>
-              <div className="about-trust-grid">
-                <div>
-                  <h3>Acteurs du marché de l’art</h3>
-                  <ul>
-                    <li>Galerie de France, Paris</li>
-                    <li>Collectio</li>
-                    <li>Daban’s limited</li>
-                    <li>Georges Gautier Fine Art</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>Artistes &amp; estates</h3>
-                  <ul>
-                    <li>Fonds Gilles Aillaud</li>
-                    <li>Martine Martine</li>
-                    <li>Martial Raysse</li>
-                    <li>Fonds de dotation Judit Reigl</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>Collections privées</h3>
-                  <ul>
-                    <li>Collection Catherine Thieck, Paris</li>
-                    <li>Autres collections particulière</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
           </div>
         </header>
 
