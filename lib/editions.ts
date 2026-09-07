@@ -14,7 +14,7 @@ export const editions: Edition[] = [
     slug: 'summer-24',
     index: '01',
     title: 'Summer 24',
-    type: 'Photography zine',
+    type: 'Zine photographique',
     cover: '/assets/editions/summer-24/cover.jpg',
     images: [
       '/assets/editions/summer-24/cover.jpg',
