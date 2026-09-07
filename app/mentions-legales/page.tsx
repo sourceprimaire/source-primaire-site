@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { SiteShell } from '@/components/site-shell';
 
 export const metadata: Metadata = {
@@ -63,7 +62,7 @@ export default function MentionsLegalesPage() {
             <h2>Données personnelles</h2>
             <p>
               Les informations relatives au formulaire de contact et aux données
-              personnelles figurent sur la page <Link href="/confidentialite/">Confidentialité</Link>.
+              personnelles figurent sur la page <a href="/confidentialite/">Confidentialité</a>.
             </p>
           </section>
         </article>

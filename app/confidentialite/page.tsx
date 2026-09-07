@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { SiteShell } from '@/components/site-shell';
 
 export const metadata: Metadata = {
@@ -25,7 +24,7 @@ export default function ConfidentialitePage() {
               Pour toute question relative à vos données, vous pouvez écrire à{' '}
               <a href="mailto:sourceprimaire.fr@gmail.com">sourceprimaire.fr@gmail.com</a>.
               L’identité juridique du responsable du traitement sera précisée dans
-              les <Link href="/mentions-legales/">mentions légales</Link>.
+              les <a href="/mentions-legales/">mentions légales</a>.
             </p>
           </section>
 

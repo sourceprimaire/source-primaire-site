@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteShell } from '@/components/site-shell';
 import { editions, getEdition } from '@/lib/editions';
@@ -68,18 +67,18 @@ export default async function EditionPage({
 
         <nav className="edition-pagination" aria-label="Publications adjacentes">
           {previous ? (
-            <Link href={`/editions/${previous.slug}/`}>
+            <a href={`/editions/${previous.slug}/`}>
               <span>PRÉCÉDENT</span>
               <strong>{previous.title}</strong>
-            </Link>
+            </a>
           ) : (
             <span />
           )}
           {next ? (
-            <Link href={`/editions/${next.slug}/`}>
+            <a href={`/editions/${next.slug}/`}>
               <span>SUIVANT</span>
               <strong>{next.title}</strong>
-            </Link>
+            </a>
           ) : (
             <span />
           )}

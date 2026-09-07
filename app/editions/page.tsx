@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { SiteShell } from '@/components/site-shell';
 import { editions } from '@/lib/editions';
 
@@ -40,7 +39,7 @@ export default function EditionsPage() {
 
         <section className="edition-grid" aria-label="Publications">
           {editions.map((edition) => (
-            <Link className="edition-card" href={`/editions/${edition.slug}/`} key={edition.slug}>
+            <a className="edition-card" href={`/editions/${edition.slug}/`} key={edition.slug}>
               <figure>
                 <img src={edition.cover} alt={edition.title} />
               </figure>
@@ -49,7 +48,7 @@ export default function EditionsPage() {
                 <span>{edition.title}</span>
                 <span>{edition.type}</span>
               </div>
-            </Link>
+            </a>
           ))}
         </section>
       </main>
