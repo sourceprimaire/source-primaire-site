@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { SiteShell } from '@/components/site-shell';
 
 export const metadata: Metadata = { title: 'Contact' };
@@ -9,10 +10,11 @@ export default function ContactPage() {
       <main className="page-content standard-page contact-page">
         <figure className="contact-image">
           <img
-            src="/assets/editions/pss01/cover.jpg"
-            alt="Couverture de la publication PSS01"
+            src="/assets/pages/contact-photo-soft-v2.png"
+            alt="Enveloppe blanche au sceau orange sur papier gris-vert"
           />
         </figure>
+        <div className="contact-details">
         <header className="contact-heading">
           <h1 className="eyebrow">CONTACT</h1>
         </header>
@@ -42,7 +44,15 @@ export default function ContactPage() {
             <textarea name="Détails" rows={3} required />
           </label>
           <button type="submit">ENVOYER</button>
+          <p className="contact-privacy">
+            Ce formulaire ouvre votre messagerie. Les informations transmises
+            servent à répondre à votre demande. <Link href="/confidentialite/">Confidentialité</Link>.
+          </p>
         </form>
+        <nav className="contact-legal-links" aria-label="Informations légales">
+          <Link href="/mentions-legales/">Mentions légales</Link>
+        </nav>
+        </div>
       </main>
     </SiteShell>
   );

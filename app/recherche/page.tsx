@@ -7,52 +7,62 @@ const steps = [
   {
     number: '01',
     title: 'Inventorier',
-    text: 'Toute collection raconte une histoire. Nous réalisons l’inventaire méthodique des œuvres, archives, objets précieux et objets de mémoire afin d’en établir une connaissance précise. Chaque pièce est identifiée, décrite, documentée et replacée dans son contexte. Cet état des lieux constitue le socle indispensable à toute démarche de conservation, de recherche, de transmission ou de valorisation.',
+    text: 'Toute collection raconte une histoire. Nous réalisons l’inventaire méthodique des œuvres, archives, objets précieux et objets de mémoire afin d’en établir une connaissance précise. Chaque pièce est identifiée, décrite et photographiée. Cet état des lieux constitue le socle indispensable à toute démarche de recherche, de transmission ou de valorisation.',
   },
   {
     number: '02',
     title: 'Documenter',
-    text: 'La constitution d’archives numériques permet de préserver et transmettre les collections. Nous réalisons les prises de vue des œuvres et objets ainsi que la numérisation des documents. Chaque pièce est cotée, classée et enrichie d’un pedigree le plus exhaustif possible. Nous réunissons ensuite images, fichiers, métadonnées et historiques de provenance au sein d’un corpus structuré. Chaque information est organisée afin d’en garantir la cohérence et la lisibilité de l’ensemble de la collection, tout en assurant sa conservation dans le temps.',
+    text: 'Nous recherchons, réunissons et vérifions les informations nécessaires pour retracer l’histoire des œuvres, des objets et des collections, les documenter et les replacer dans leur contexte. Sources, archives, correspondances, publications, historiques de provenance et témoignages sont confrontés afin d’établir les faits et d’enrichir la connaissance de chaque pièce. Les informations recueillies sont structurées et associées aux images, fichiers et métadonnées pour constituer un corpus documentaire cohérent et exploitable.',
   },
   {
     number: '03',
-    title: 'Valoriser',
-    text: 'Un inventaire n’a de sens que s’il peut être consulté, étudié et transmis. Nous concevons des bases documentaires, des catalogues raisonnés, des publications et des sites Internet dédiés à tout ou partie des collections. Destinés aux artistes, ayants droit, chercheurs, institutions et collectionneurs, ces outils rendent les collections consultables, documentées, accessibles et pérennes, respectant leur histoire et leur singularité.',
+    title: 'Conserver',
+    text: 'Nous accompagnons la conservation des œuvres et objets dans le temps, en apportant des recommandations adaptées à leur nature et à leur état. Nous assurons également la pérennité des archives en organisant leur classement et leur numérisation. Ces ressources numériques permettent d’en faciliter la consultation et d’en assurer la transmission dans le temps.',
+  },
+  {
+    number: '04',
+    title: 'Transmettre',
+    text: 'Une collection peut être destinée à différents publics et répondre à des besoins très différents. Nous concevons les formes adaptées à sa transmission : inventaires, dossiers documentaires, publications ou sites Internet, selon les besoins des collectionneurs, artistes, familles, ayants droit, chercheurs, institutions ou entreprises. Qu’il s’agisse de préparer une succession patrimoniale, de transmettre une histoire familiale ou de rendre une collection accessible à la recherche, chaque projet est conçu sur mesure, dans le respect de son histoire et de sa singularité.',
   },
 ];
 
 export default function RecherchePage() {
   return (
     <SiteShell active="/recherche/">
-      <main className="page-content standard-page">
-        <header className="page-intro research-intro">
-          <div>
-            <h1 className="eyebrow">RECHERCHE</h1>
-            <p className="lead">
+      <main className="page-content research-page">
+        <div className="research-composition">
+          <figure className="research-sequence">
+            <img
+              src="/assets/pages/recherche-photo-soft-v2.png"
+              alt="Photographie d’archive, papier translucide et carré noir"
+              width="1024"
+              height="1024"
+            />
+          </figure>
+
+          <div className="research-intro-copy">
+            <h1 className="section-heading">
+              <span className="section-square section-square-black" aria-hidden="true" />
+              <span>RECHERCHE</span>
+            </h1>
+            <p className="research-lead">
               Nous accompagnons les artistes, collectionneurs, ayants droit, familles,
               institutions et entreprises dans l&apos;inventaire, la numérisation et la
               valorisation de leurs collections, archives et patrimoines.
             </p>
-            <section className="process-list" aria-label="Méthode">
+            <section className="research-index" aria-label="Méthode">
               {steps.map((step) => (
-                <article className="process-item" key={step.number}>
-                  <p className="item-number">{step.number}</p>
-                  <h2>{step.title}</h2>
+                <details className="research-index-item" key={step.number} open>
+                  <summary>
+                    <span>{step.number}</span>
+                    <span>{step.title}</span>
+                  </summary>
                   <p>{step.text}</p>
-                </article>
+                </details>
               ))}
             </section>
           </div>
-          <figure className="research-image">
-            <img
-              src="/assets/pages/recherche.webp"
-              alt="Composition d’archive associant photographie, verre et matière"
-              width="1500"
-              height="1793"
-            />
-          </figure>
-        </header>
-
+        </div>
       </main>
     </SiteShell>
   );

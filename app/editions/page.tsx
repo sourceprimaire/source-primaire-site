@@ -12,12 +12,15 @@ export default function EditionsPage() {
         <header className="page-intro editions-intro">
           <figure className="editions-image">
             <img
-              src="/assets/editions/summer-24/cover.jpg"
-              alt="Summer 24, publication photographique"
+              src="/assets/pages/editions-photo-soft-v2.png"
+              alt="Livre cousu à la main, pages translucides et carré rouge"
             />
           </figure>
           <div>
-            <h1 className="eyebrow">ÉDITIONS</h1>
+            <h1 className="eyebrow section-heading">
+              <span className="section-square section-square-red" aria-hidden="true" />
+              <span>ÉDITIONS</span>
+            </h1>
             <p className="lead">
               Nous accompagnons les artistes, auteurs, photographes et musiciens dans la
               conception, l&apos;édition et la publication de livres, objets imprimés et éditions
