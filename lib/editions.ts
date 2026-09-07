@@ -32,7 +32,7 @@ export const editions: Edition[] = [
     slug: 'neighbors',
     index: '02',
     title: 'Neighbors',
-    type: 'Photo book',
+    type: 'Livret d’artiste',
     cover: '/assets/editions/neighbors/cover.jpg',
     images: [
       '/assets/editions/neighbors/cover.jpg',
