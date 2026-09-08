@@ -21,7 +21,7 @@ export default function EditionsPage() {
             </h1>
             <div className="lead">
               <p>
-                À l&apos;issue de la phase de <strong>RECHERCHE</strong>, nous proposons à nos clients
+                À l&apos;issue de la phase de <strong>RECHERCHES</strong>, nous proposons à nos clients
                 de prolonger ce travail par un <strong>projet éditorial conçu sur mesure</strong>,
                 consacré à tout ou partie de leur collection. De la conception éditoriale et
                 artistique à la réalisation, nous imaginons avec eux la forme la plus juste pour

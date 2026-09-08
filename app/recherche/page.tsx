@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { SiteShell } from '@/components/site-shell';
 
-export const metadata: Metadata = { title: 'Recherche' };
+export const metadata: Metadata = { title: 'Recherches' };
 
 const steps = [
   {
@@ -42,7 +42,7 @@ export default function RecherchePage() {
 
           <div className="research-intro-copy">
             <h1 className="section-heading">
-              <span>RECHERCHE</span>
+              <span>RECHERCHES</span>
             </h1>
             <p className="research-lead">
               Nous accompagnons les collectionneurs, artistes, familles, ayants droit,

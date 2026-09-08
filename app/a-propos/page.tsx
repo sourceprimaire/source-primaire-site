@@ -5,7 +5,7 @@ export const metadata: Metadata = { title: 'À propos' };
 
 const services = [
   'Inventaire',
-  'Recherche',
+  'Recherches',
   'Documentation',
   'Numérisation',
   'Conservation',
@@ -48,7 +48,9 @@ export default function AboutPage() {
                 <strong>Émilie Girault</strong>, gestionnaire de collections et directrice
                 éditoriale, accompagne les professionnels du monde de l’art, artistes, ayants
                 droit, collectionneurs et institutions dans l’inventaire, la documentation,
-                la conservation et la valorisation de leur patrimoine. Au sein de Source
+                la conservation et la valorisation de leur patrimoine.
+                <br />
+                Au sein de Source
                 Primaire, elle pilote la gestion et le suivi des projets
                 ainsi que les recherches documentaires et scientifiques. Elle assure la
                 direction éditoriale des éditions.
@@ -57,7 +59,9 @@ export default function AboutPage() {
                 <strong>Georges Daou</strong>, architecte, designer et directeur artistique,
                 travaille en France et à l&apos;international avec des cabinets d&apos;architecture et
                 des agences de design, dans le cadre de projets privés ou d&apos;appels
-                institutionnels. Au sein de Source Primaire, il conçoit les dispositifs
+                institutionnels.
+                <br />
+                Au sein de Source Primaire, il conçoit les dispositifs
                 numériques ainsi que le design et l’identité graphique des différents projets.
                 Il réalise également les prises de vue photographiques, en argentique comme en
                 numérique, destinées à documenter et valoriser les collections. Il assure la

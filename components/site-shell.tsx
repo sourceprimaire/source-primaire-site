@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
 const navigation = [
-  { href: '/recherche/', label: 'RECHERCHE' },
+  { href: '/recherche/', label: 'RECHERCHES' },
   { href: '/editions/', label: 'ÉDITIONS' },
   { href: '/a-propos/', label: 'À PROPOS' },
   { href: '/contact/', label: 'CONTACT' },
