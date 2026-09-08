@@ -52,13 +52,13 @@ export default function RecherchePage() {
             </p>
             <section className="research-index" aria-label="Méthode">
               {steps.map((step) => (
-                <details className="research-index-item" key={step.number} open>
-                  <summary>
+                <article className="research-index-item" key={step.number}>
+                  <div className="research-index-heading">
                     <span>{step.number}</span>
                     <span>{step.title}</span>
-                  </summary>
+                  </div>
                   <p>{step.text}</p>
-                </details>
+                </article>
               ))}
             </section>
           </div>

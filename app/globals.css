@@ -360,26 +360,10 @@ textarea {
   font-size: var(--menu-size);
 }
 
-.research-index-item summary {
+.research-index-heading {
   display: grid;
   grid-template-columns: 30px 1fr;
-  cursor: pointer;
-  list-style: none;
   letter-spacing: 0.015em;
-}
-
-.research-index-item summary::-webkit-details-marker {
-  display: none;
-}
-
-.research-index-item summary:hover,
-.research-index-item summary:focus-visible {
-  color: var(--muted);
-}
-
-.research-index-item summary:focus-visible {
-  outline: 1px solid currentColor;
-  outline-offset: 4px;
 }
 
 .research-index-item p {
