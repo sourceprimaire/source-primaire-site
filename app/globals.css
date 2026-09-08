@@ -6,7 +6,7 @@
   --muted: #77756e;
   --rule: #cfcdc5;
   --edge: clamp(26px, 2.5vw, 46px);
-  --content-left: 26vw;
+  --content-left: clamp(250px, 24vw, 430px);
   --content-top: 22.6vh;
   --text-size: 9pt;
   --body-size: var(--text-size);
@@ -304,7 +304,7 @@ textarea {
 
 .research-composition {
   display: grid;
-  grid-template-columns: var(--media-column) minmax(300px, 390px);
+  grid-template-columns: var(--media-column) minmax(300px, 580px);
   column-gap: var(--content-gap);
   align-items: start;
 }
@@ -343,7 +343,7 @@ textarea {
 
 .research-lead {
   width: 100%;
-  margin: 42px 0 0;
+  margin: 38px 0 0;
   font-size: var(--menu-size);
   letter-spacing: 0.015em;
   line-height: 1.55;
@@ -352,8 +352,8 @@ textarea {
 .research-index {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 32px;
-  margin-top: 32px;
+  gap: 18px;
+  margin-top: 22px;
 }
 
 .research-index-item {
@@ -368,7 +368,7 @@ textarea {
 
 .research-index-item p {
   width: auto;
-  margin: 14px 0 0;
+  margin: 10px 0 0;
   color: var(--muted);
   font-size: var(--menu-size);
   line-height: 1.55;
@@ -376,7 +376,7 @@ textarea {
 
 .editions-intro {
   display: grid;
-  grid-template-columns: var(--media-column) minmax(300px, 390px);
+  grid-template-columns: var(--media-column) minmax(300px, 580px);
   gap: var(--content-gap);
   align-items: start;
   row-gap: 0;
@@ -455,7 +455,7 @@ textarea {
 
 .edition-header {
   display: grid;
-  grid-template-columns: var(--media-column) minmax(300px, 390px);
+  grid-template-columns: var(--media-column) minmax(300px, 580px);
   gap: var(--content-gap);
   align-items: start;
   row-gap: 0;
@@ -559,7 +559,7 @@ textarea {
 
 .about-intro {
   display: grid;
-  grid-template-columns: var(--media-column) minmax(300px, 390px);
+  grid-template-columns: var(--media-column) minmax(300px, 580px);
   gap: var(--content-gap);
   align-items: start;
 }
