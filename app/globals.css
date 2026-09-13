@@ -375,6 +375,14 @@ textarea {
   line-height: 1.15;
 }
 
+.research-index-section {
+  margin-top: 20px;
+}
+
+.research-index-section p {
+  margin-top: 38px;
+}
+
 .research-index-item p {
   width: auto;
   margin: 10px 0 0;
