@@ -21,17 +21,17 @@ export default function EditionsPage() {
             </h1>
             <div className="lead">
               <p>
-                À l&apos;issue de la phase de <strong>RECHERCHES</strong>, nous proposons à nos clients
-                de prolonger ce travail par un <strong>projet éditorial conçu sur mesure</strong>,
-                consacré à tout ou partie de leur collection. De la conception éditoriale et
-                artistique à la réalisation, nous imaginons avec eux la forme la plus juste pour
-                valoriser et transmettre son histoire.
+                Nous proposons à nos clients de prolonger les travaux d&apos;inventaire et de
+                documentation par un <strong>projet éditorial conçu sur mesure</strong>, consacré
+                à tout ou partie de leur collection. De la conception éditoriale et artistique à
+                la réalisation, nous imaginons avec eux la forme la plus juste pour valoriser et
+                transmettre son histoire.
               </p>
               <p>
-                Indépendamment de la recherche, nous accompagnons également les artistes,
-                auteurs, photographes et musiciens dans la conception, l&apos;édition et la
-                publication de livres, objets imprimés et éditions sonores qui documentent et
-                prolongent leur travail.
+                Indépendamment de ces travaux, nous accompagnons également les artistes, auteurs,
+                photographes et musiciens dans la conception, l&apos;édition et la publication de{' '}
+                <strong>projets autonomes</strong> : livres, objets imprimés et éditions sonores
+                qui documentent et prolongent leur travail.
               </p>
             </div>
           </div>
