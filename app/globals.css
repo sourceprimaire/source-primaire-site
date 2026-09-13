@@ -381,6 +381,7 @@ textarea {
 
 .research-index-section p {
   margin-top: 38px;
+  color: var(--ink);
 }
 
 .research-index-item p {
