@@ -50,10 +50,18 @@ export default function AboutPage() {
                 droit, collectionneurs et institutions dans l’inventaire, la documentation,
                 la conservation et la valorisation de leur patrimoine.
                 <br />
-                Au sein de Source
-                Primaire, elle pilote la gestion et le suivi des projets
-                ainsi que les recherches documentaires et scientifiques. Elle assure la
-                direction éditoriale des éditions.
+                Elle a notamment dirigé les inventaires de l’Œuvre de Martial Raysse et de
+                l’Œuvre de Gilles Aillaud ; géré les collections de Catherine Thieck et de la
+                Galerie de France, ainsi que la préparation de ses publications ; accompagné
+                l’édition des tomes II et III du catalogue raisonné de Martine Martine. Elle
+                mène aujourd’hui les recherches liées à l’inventaire de l’Œuvre de Judit Reigl,
+                en vue de l’établissement de son catalogue raisonné, et assure la rédaction
+                scientifique de sa chronologie.
+                <br />
+                Au sein de Source Primaire, elle pilote la gestion et le suivi des projets ainsi
+                que les recherches documentaires et scientifiques.
+                <br />
+                Elle assure la direction éditoriale des éditions.
               </p>
               <p>
                 <strong>Georges Daou</strong>, architecte, designer et directeur artistique,
@@ -64,18 +72,19 @@ export default function AboutPage() {
                 Au sein de Source Primaire, il conçoit les dispositifs
                 numériques ainsi que le design et l’identité graphique des différents projets.
                 Il réalise également les prises de vue photographiques, en argentique comme en
-                numérique, destinées à documenter et valoriser les collections. Il assure la
-                direction artistique des éditions.
+                numérique, destinées à documenter et valoriser les collections.
+                <br />
+                Il assure la direction artistique des éditions.
               </p>
               <p>
-                Forts de plus de vingt ans d’expérience dans leurs domaines respectifs, ils partagent
-                une même exigence de rigueur dans la conduite de leurs projets. Ensemble, ils
-                mettent en commun leurs savoir-faire afin d&apos;offrir à chaque collection une
-                lecture à la fois documentée, contextualisée et sensible. De cette
-                complémentarité est née une méthode solide : rechercher les sources, documenter
-                avec précision, puis imaginer les modes de restitution les plus pertinents afin
-                de valoriser chaque collection et d&apos;en transmettre l&apos;histoire, dans le respect
-                de sa singularité.
+                Forts de plus de vingt ans d’expérience dans leurs domaines respectifs, ils
+                partagent une même exigence de rigueur dans la conduite de leurs projets.
+                Ensemble, ils mettent en commun leurs savoir-faire afin d&apos;offrir à chaque
+                collection une lecture à la fois documentée, contextualisée et sensible. De
+                cette complémentarité est née une méthode solide : rechercher les sources,
+                documenter avec précision, puis imaginer les modes de restitution les plus
+                pertinents afin de valoriser chaque collection et d&apos;en transmettre l&apos;histoire,
+                dans le respect de sa singularité.
               </p>
               <p>
                 Au cœur de Source Primaire se trouve une conviction simple :{' '}
