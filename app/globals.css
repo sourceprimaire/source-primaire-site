@@ -363,6 +363,7 @@ textarea {
 .research-index-heading {
   display: grid;
   grid-template-columns: 30px 1fr;
+  color: var(--muted);
   letter-spacing: 0.015em;
 }
 
@@ -382,7 +383,7 @@ textarea {
 .research-index-item p {
   width: auto;
   margin: 10px 0 0;
-  color: var(--muted);
+  color: var(--ink);
   font-size: var(--menu-size);
   line-height: 1.55;
 }
