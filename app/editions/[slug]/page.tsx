@@ -41,18 +41,21 @@ export default async function EditionPage({
           <div className="edition-content">
             <div className="edition-title">
               <p className="eyebrow">ÉDITION {edition.index}</p>
-              <h1>{edition.title}</h1>
+              <h1>
+                {edition.detailTitle.map((line) => (
+                  <span key={line}>{line}</span>
+                ))}
+              </h1>
             </div>
             <div className="edition-copy">
-              {edition.paragraphs.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
               <div className="edition-meta">
-                <p>{edition.type}</p>
                 {edition.metadata.map((item) => (
                   <p key={item}>{item}</p>
                 ))}
               </div>
+              {edition.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
             </div>
           </div>
         </header>

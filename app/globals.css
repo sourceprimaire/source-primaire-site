@@ -499,6 +499,10 @@ textarea {
   font-size: var(--text-size);
 }
 
+.edition-title h1 span {
+  display: block;
+}
+
 .edition-copy {
   max-width: 720px;
 }
@@ -508,9 +512,7 @@ textarea {
 }
 
 .edition-meta {
-  margin-top: 48px;
-  padding-top: 14px;
-  border-top: 1px solid var(--rule);
+  margin: 0 0 28px;
   color: var(--muted);
   font-size: var(--text-size);
   letter-spacing: 0.035em;
