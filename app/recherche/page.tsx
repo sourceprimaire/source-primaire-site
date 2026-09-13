@@ -58,8 +58,10 @@ export default function RecherchePage() {
             <section className="research-index" aria-label="Méthode">
               {steps.map((step) => (
                 <article className="research-index-item" key={step.number}>
-                  <div className="research-index-heading">
-                    <span>{step.number}</span>
+                  <div
+                    className={`research-index-heading${step.number ? '' : ' research-index-heading-section'}`}
+                  >
+                    {step.number && <span>{step.number}</span>}
                     <span>{step.title}</span>
                   </div>
                   <p>{step.text}</p>

@@ -366,6 +366,15 @@ textarea {
   letter-spacing: 0.015em;
 }
 
+.research-index-heading-section {
+  display: block;
+  color: var(--muted);
+  font-size: var(--menu-size);
+  font-weight: 400;
+  letter-spacing: 0.055em;
+  line-height: 1.15;
+}
+
 .research-index-item p {
   width: auto;
   margin: 10px 0 0;
