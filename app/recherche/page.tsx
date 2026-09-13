@@ -5,24 +5,29 @@ export const metadata: Metadata = { title: 'Inventaires' };
 
 const steps = [
   {
-    number: '01',
-    title: 'Inventorier',
+    number: '01 -',
+    title: 'INVENTORIER',
     text: 'Nous réalisons l’inventaire méthodique des œuvres, archives, objets précieux et objets de mémoire afin d’en établir une connaissance précise. Chaque pièce est identifiée, décrite et photographiée. Cet état des lieux constitue le socle indispensable à toute démarche de recherche, de transmission ou de valorisation.',
   },
   {
-    number: '02',
-    title: 'Documenter',
+    number: '02 -',
+    title: 'DOCUMENTER',
     text: 'Nous recherchons, réunissons et vérifions les informations nécessaires pour retracer l’histoire des œuvres, des objets et des collections, les documenter et les replacer dans leur contexte. Sources, archives, correspondances, publications, historiques de provenance et témoignages sont confrontés afin d’établir les faits et d’enrichir la connaissance de chaque pièce. Les informations recueillies sont structurées et associées aux images, fichiers et métadonnées pour constituer un corpus documentaire cohérent et exploitable.',
   },
   {
-    number: '03',
-    title: 'Conserver',
+    number: '03 -',
+    title: 'CONSERVER',
     text: 'Nous conseillons nos clients sur les conditions de conservation des œuvres et objets dans le temps, en apportant des recommandations adaptées à leur nature et à leur état. Nous contribuons également à la pérennité des archives en organisant leur classement et leur numérisation. Ces ressources numériques permettent d’en faciliter la consultation et d’en assurer la transmission dans le temps.',
   },
   {
-    number: '04',
-    title: 'Transmettre',
+    number: '04 -',
+    title: 'TRANSMETTRE',
     text: 'Une collection peut être destinée à différents publics et répondre à différents usages. Nous concevons les formes adaptées à sa transmission : inventaires, dossiers documentaires, catalogues ou sites Internet, selon les besoins de chaque client. Qu’il s’agisse de préparer une succession patrimoniale, de transmettre une histoire familiale ou de rendre une collection accessible à la recherche, chaque projet est pensé dans le respect de son histoire et de sa singularité.',
+  },
+  {
+    number: '',
+    title: 'GESTION DE COLLECTIONS',
+    text: 'En complément de ces missions ponctuelles, Source Primaire accompagne également ses clients dans la gestion de leurs collections dans la durée : suivi des mouvements d’œuvres, dépôts, prêts, expositions ; collecte des publications et articles de presse relatifs aux œuvres de la collection ; valorisation de la collection par la création d’un site Internet ; communication sur les réseaux sociaux.',
   },
 ];
 
