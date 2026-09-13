@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SiteShell } from '@/components/site-shell';
+import { ContactForm } from '@/components/contact-form';
 
 export const metadata: Metadata = { title: 'Contact' };
 
@@ -18,32 +19,7 @@ export default function ContactPage() {
           <h1 className="eyebrow">CONTACT</h1>
         </header>
 
-        <form
-          className="contact-form"
-          action="mailto:sourceprimaire.fr@gmail.com"
-          method="post"
-          encType="text/plain"
-        >
-          <div className="field-row">
-            <label>
-              <span>PRÉNOM</span>
-              <input type="text" name="Prénom" autoComplete="given-name" required />
-            </label>
-            <label>
-              <span>NOM</span>
-              <input type="text" name="Nom" autoComplete="family-name" required />
-            </label>
-          </div>
-          <label>
-            <span>EMAIL</span>
-            <input type="email" name="Email" autoComplete="email" required />
-          </label>
-          <label>
-            <span>DÉTAILS</span>
-            <textarea name="Détails" rows={3} required />
-          </label>
-          <button type="submit">ENVOYER</button>
-        </form>
+        <ContactForm />
         <div className="contact-legal-links" aria-label="Informations légales">
           <span>Mentions légales</span>
           <span>Confidentialité</span>
