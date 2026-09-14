@@ -20,6 +20,14 @@ export default function ContactPage() {
         </header>
 
         <ContactForm />
+        <div className="contact-location">
+          <p>
+            <strong>
+              Basés à Paris, nous intervenons dans le cadre de projets en France et à l’étranger.
+            </strong>
+          </p>
+          <p>Français · anglais · arabe</p>
+        </div>
         <div className="contact-legal-links" aria-label="Informations légales">
           <span>Mentions légales</span>
           <span>Confidentialité</span>
