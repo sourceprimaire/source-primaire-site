@@ -724,6 +724,8 @@ textarea {
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
+  width: max-content;
+  max-width: calc(100vw - var(--content-left) - var(--media-column) - var(--content-gap) - var(--edge));
   padding: 18px 0;
   color: var(--ink);
   font-size: var(--text-size);
@@ -962,6 +964,11 @@ textarea {
     grid-row: auto;
     height: auto;
     justify-content: flex-start;
+  }
+
+  .contact-location {
+    width: 100%;
+    max-width: 100%;
   }
 
   .contact-details .contact-form {

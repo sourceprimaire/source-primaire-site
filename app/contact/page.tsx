@@ -22,7 +22,7 @@ export default function ContactPage() {
         <ContactForm />
         <div className="contact-location">
           <p>
-            Basés à Paris, nous intervenons dans le cadre de projets en France et à l’étranger.
+            Basés à Paris, nous intervenons dans le cadre de projets en France et à l’étranger.
           </p>
           <p>Français · anglais · arabe</p>
         </div>
