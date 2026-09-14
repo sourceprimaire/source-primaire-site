@@ -481,7 +481,7 @@ textarea {
 
 .edition-caption {
   display: grid;
-  grid-template-columns: 38px minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 10px;
   padding-top: 10px;
   font-size: var(--text-size);

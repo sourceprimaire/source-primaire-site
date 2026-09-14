@@ -11,8 +11,7 @@ export function EditionCard({ edition, locale = 'fr' }: { edition: Edition; loca
         <img src={edition.cover} alt={edition.title} />
       </figure>
       <div className="edition-caption">
-        <span>{edition.index}</span>
-        <span>{edition.title}</span>
+        <span>{edition.index}&nbsp;{edition.title}</span>
         <span>{edition.type}</span>
       </div>
     </a>
