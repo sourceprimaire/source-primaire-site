@@ -7,8 +7,8 @@ export default function Home() {
         <h1 className="visually-hidden">Source Primaire</h1>
         <figure className="home-figure">
           <img
-            src="/assets/pages/home-paper-red-v1.webp"
-            alt="Papiers d’archive translucides et fragment rouge sur fond ivoire"
+            src="/assets/pages/editions-photo-soft-v2.png"
+            alt="Livre cousu à la main, pages translucides et carré rouge"
             width="1254"
             height="1254"
           />

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SiteShell } from '@/components/site-shell';
+import { EditionCard } from '@/components/edition-card';
 import { englishEditions } from '@/lib/editions';
 
 export const metadata: Metadata = { title: 'Editions' };
@@ -9,12 +10,7 @@ export default function EnglishEditionsPage() {
     <SiteShell locale="en" active="/en/editions/" alternateHref="/editions/">
       <main className="page-content standard-page">
         <header className="page-intro editions-intro">
-          <figure className="editions-image">
-            <img
-              src="/assets/pages/editions-photo-soft-v2.png"
-              alt="Hand-sewn book, translucent pages and a red square"
-            />
-          </figure>
+          <EditionCard edition={englishEditions[0]} locale="en" />
           <div>
             <h1 className="eyebrow section-heading">
               <span>EDITIONS</span>
@@ -38,21 +34,8 @@ export default function EnglishEditionsPage() {
         </header>
 
         <section className="edition-grid" aria-label="Publications">
-          {englishEditions.map((edition) => (
-            <a
-              className="edition-card"
-              href={`/en/editions/${edition.slug}/`}
-              key={edition.slug}
-            >
-              <figure>
-                <img src={edition.cover} alt={edition.title} />
-              </figure>
-              <div className="edition-caption">
-                <span>{edition.index}</span>
-                <span>{edition.title}</span>
-                <span>{edition.type}</span>
-              </div>
-            </a>
+          {englishEditions.slice(1).map((edition) => (
+            <EditionCard edition={edition} locale="en" key={edition.slug} />
           ))}
         </section>
       </main>

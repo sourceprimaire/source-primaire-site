@@ -13,8 +13,8 @@ export default function EnglishHome() {
         <h1 className="visually-hidden">Source Primaire</h1>
         <figure className="home-figure">
           <img
-            src="/assets/pages/home-paper-red-v1.webp"
-            alt="Translucent archival papers and a red fragment on an ivory background"
+            src="/assets/pages/editions-photo-soft-v2.png"
+            alt="Hand-sewn book, translucent pages and a red square"
             width="1254"
             height="1254"
           />
