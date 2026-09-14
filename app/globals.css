@@ -720,7 +720,11 @@ textarea {
 }
 
 .contact-location {
-  margin: 18px 0 16px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px 0;
   color: var(--ink);
   font-size: 7pt;
   line-height: 1.55;
@@ -739,7 +743,7 @@ textarea {
   flex-wrap: wrap;
   gap: 16px 36px;
   align-self: flex-start;
-  margin-top: auto;
+  margin-top: 0;
   color: var(--muted);
   font-size: 7pt;
   line-height: 1.55;
@@ -951,10 +955,6 @@ textarea {
   .contact-form {
     grid-column: auto;
     grid-row: auto;
-  }
-
-  .contact-legal-links {
-    margin-top: 12px;
   }
 
   .contact-details {

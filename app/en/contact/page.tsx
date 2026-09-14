@@ -21,9 +21,7 @@ export default function EnglishContactPage() {
 
           <ContactForm locale="en" />
           <div className="contact-location">
-            <p>
-              <strong>Based in Paris, we work on projects in France and abroad.</strong>
-            </p>
+            <p>Based in Paris, we work on projects in France and abroad.</p>
             <p>French · English · Arabic</p>
           </div>
           <div className="contact-legal-links" aria-label="Legal information">
