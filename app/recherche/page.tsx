@@ -27,7 +27,7 @@ const steps = [
   {
     number: '',
     title: 'GESTION DE COLLECTIONS',
-    text: 'En complément de ces missions ponctuelles, Source Primaire accompagne également ses clients dans la gestion de leurs collections dans la durée : suivi des mouvements d’œuvres, dépôts, prêts, expositions ; collecte des publications et articles de presse relatifs aux œuvres de la collection ; valorisation de la collection par la création d’un site Internet ; communication sur les réseaux sociaux.',
+    text: 'En complément de ces missions ponctuelles, Source Primaire accompagne également ses clients dans la gestion de leurs collections dans la durée : suivi des mouvements d’œuvres, dépôts, prêts, expositions ; soutien à l’organisation d’expositions et d’événements, du transport à l’accrochage ; collecte des publications et articles de presse relatifs aux œuvres de la collection ; valorisation de la collection par la création d’un site Internet ; communication sur les réseaux sociaux.',
   },
 ];
 

@@ -27,7 +27,7 @@ const steps = [
   {
     number: '',
     title: 'COLLECTION MANAGEMENT',
-    text: 'In addition to these specific assignments, Source Primaire also supports clients in the long-term management of their collections: tracking the movement of artworks, deposits, loans and exhibitions; gathering publications and press coverage relating to works in the collection; creating a dedicated website to present the collection; and managing its presence on social media.',
+    text: 'In addition to these specific assignments, Source Primaire also supports clients in the long-term management of their collections: tracking the movement of artworks, deposits, loans and exhibitions; supporting the organisation of exhibitions and events, from transport to installation; gathering publications and press coverage relating to works in the collection; creating a dedicated website to present the collection; and managing its presence on social media.',
   },
 ];
 
