@@ -726,7 +726,7 @@ textarea {
   justify-content: center;
   padding: 18px 0;
   color: var(--ink);
-  font-size: 7pt;
+  font-size: var(--text-size);
   line-height: 1.55;
 }
 
