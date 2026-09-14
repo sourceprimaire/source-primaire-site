@@ -16,7 +16,7 @@ const services = [
 
 export default function AboutPage() {
   return (
-    <SiteShell active="/a-propos/">
+    <SiteShell active="/a-propos/" alternateHref="/en/about/">
       <main className="page-content standard-page">
         <header className="page-intro about-intro">
           <div className="about-media">

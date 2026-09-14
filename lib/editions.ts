@@ -84,3 +84,52 @@ export const editions: Edition[] = [
 export function getEdition(slug: string) {
   return editions.find((edition) => edition.slug === slug);
 }
+
+export const englishEditions: Edition[] = [
+  {
+    ...editions[0],
+    detailTitle: ['“Summer 24”, Georges Daou'],
+    type: 'Photographic zine',
+    paragraphs: [
+      'A photographic zine composed of images and fragments gathered by the artist around the Mediterranean in 2024. The work sits between observation and memory.',
+      '“The sea, the heat and the silent landscapes become traces of a summer that is already beginning to disappear. A brief, intimate sequence.”',
+    ],
+    metadata: [
+      'Paris, Éditions Source Primaire, 2026',
+      '24 pages in colour',
+      '100 signed and numbered copies',
+    ],
+  },
+  {
+    ...editions[1],
+    detailTitle: ['“Neighbors”, Émilie Girault'],
+    type: 'Artist’s booklet',
+    paragraphs: [
+      'This booklet brings together the complete series of 32 photographs made by the artist during the spring 2020 lockdown, under the title Neighbors.',
+      '“Spaces in which people live, illuminated yet devoid of life; no human presence. The Neighbors project reconstructs an apartment building, highlighting the isolation of people living side by side, together yet separate. The apartments are identified by letters and numbers indicating their positions in relation to one another, while echoing the coordinates of a game of Battleship during a period described in terms of war. The interiors and their lighting speak in place of their occupants and leave the observer free to imagine: who are they? What are they doing? How do they live? Questions that return each individual to their own reality.”',
+    ],
+    metadata: [
+      'Paris, Éditions Source Primaire, 2026',
+      '40 pages in colour',
+      '22 signed and numbered copies',
+    ],
+  },
+  {
+    ...editions[2],
+    detailTitle: ['Primary Source Sound - PSS01', '“The Lost Archives”, Daou'],
+    type: 'Sound publication',
+    paragraphs: [
+      'Primary Source Sound is an editorial collection conceived and produced by Source Primaire for the Primary Source label. Each volume extends a musical work through photographs, texts, conversations and archival documents.',
+      'PSS01 opens the collection with “The Lost Archives” by Daou. This publication brings together the people, documents and memories behind the project. Conceived as an extension of the music, it offers a slower, more tactile way into its world.',
+    ],
+    metadata: [
+      'Paris, Éditions Source Primaire, 2026',
+      '16 pages in colour',
+      '50 signed and numbered copies',
+    ],
+  },
+];
+
+export function getEnglishEdition(slug: string) {
+  return englishEditions.find((edition) => edition.slug === slug);
+}

@@ -33,7 +33,7 @@ const steps = [
 
 export default function RecherchePage() {
   return (
-    <SiteShell active="/recherche/">
+    <SiteShell active="/recherche/" alternateHref="/en/inventories/">
       <main className="page-content research-page">
         <div className="research-composition">
           <figure className="research-sequence">

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function MentionsLegalesPage() {
   return (
-    <SiteShell active="/mentions-legales/">
+    <SiteShell active="/mentions-legales/" alternateHref="/en/legal-notice/">
       <main className="page-content standard-page legal-page">
         <article className="legal-copy">
           <h1 className="eyebrow">MENTIONS LÉGALES</h1>

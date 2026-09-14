@@ -4,26 +4,26 @@ import { ContactForm } from '@/components/contact-form';
 
 export const metadata: Metadata = { title: 'Contact' };
 
-export default function ContactPage() {
+export default function EnglishContactPage() {
   return (
-    <SiteShell active="/contact/" alternateHref="/en/contact/">
+    <SiteShell locale="en" active="/en/contact/" alternateHref="/contact/">
       <main className="page-content standard-page contact-page">
         <figure className="contact-image">
           <img
             src="/assets/pages/contact-photo-soft-v2.png"
-            alt="Enveloppe blanche au sceau orange sur papier gris-vert"
+            alt="White envelope with an orange seal on grey-green paper"
           />
         </figure>
         <div className="contact-details">
-        <header className="contact-heading">
-          <h1 className="eyebrow">CONTACT</h1>
-        </header>
+          <header className="contact-heading">
+            <h1 className="eyebrow">CONTACT</h1>
+          </header>
 
-        <ContactForm />
-        <div className="contact-legal-links" aria-label="Informations légales">
-          <span>Mentions légales</span>
-          <span>Confidentialité</span>
-        </div>
+          <ContactForm locale="en" />
+          <div className="contact-legal-links" aria-label="Legal information">
+            <span>Legal notice</span>
+            <span>Privacy</span>
+          </div>
         </div>
       </main>
     </SiteShell>

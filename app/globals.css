@@ -65,6 +65,27 @@ textarea {
   left: var(--edge);
 }
 
+.language-switch {
+  display: flex;
+  gap: 6px;
+  width: max-content;
+  margin-top: 27px;
+}
+
+.language-switch [aria-current='page'] {
+  font-weight: 700;
+}
+
+.language-switch a:hover,
+.language-switch a:focus-visible {
+  opacity: 0.48;
+}
+
+.language-switch a:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 4px;
+}
+
 .site-name {
   display: flex;
   align-items: center;
@@ -841,6 +862,10 @@ textarea {
 
   .site-header {
     margin-bottom: 34px;
+  }
+
+  .language-switch {
+    margin-top: 33px;
   }
 
   .site-nav {

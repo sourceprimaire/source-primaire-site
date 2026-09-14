@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: 'Éditions' };
 
 export default function EditionsPage() {
   return (
-    <SiteShell active="/editions/">
+    <SiteShell active="/editions/" alternateHref="/en/editions/">
       <main className="page-content standard-page">
         <header className="page-intro editions-intro">
           <figure className="editions-image">

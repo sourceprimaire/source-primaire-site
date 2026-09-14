@@ -5,26 +5,26 @@ export const metadata: Metadata = { title: 'Clients', robots: { index: false } }
 
 const clientGroups = [
   {
-    title: 'Acteurs du marché de l’art',
+    title: 'Art market professionals',
     names: ['Galerie de France, Paris', 'Collectio', 'Daban’s limited', 'Georges Gautier Fine Art'],
   },
   {
-    title: 'Artistes & estates',
+    title: 'Artists and estates',
     names: ['Fonds Gilles Aillaud', 'Martine Martine', 'Martial Raysse', 'Fonds de dotation Judit Reigl'],
   },
   {
-    title: 'Collections privées',
-    names: ['Collection Catherine Thieck, Paris', 'Autres collections particulières'],
+    title: 'Private collections',
+    names: ['Collection Catherine Thieck, Paris', 'Other private collections'],
   },
 ];
 
-export default function ClientsPage() {
+export default function EnglishClientsPage() {
   return (
-    <SiteShell alternateHref="/en/clients/">
+    <SiteShell locale="en" alternateHref="/clients/">
       <main className="page-content standard-page clients-page">
         <header>
           <p className="eyebrow">CLIENTS</p>
-          <h1>Ils nous ont fait confiance</h1>
+          <h1>They have placed their trust in us</h1>
         </header>
         <section className="client-grid">
           {clientGroups.map((group) => (

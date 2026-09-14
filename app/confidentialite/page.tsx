@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ConfidentialitePage() {
   return (
-    <SiteShell active="/confidentialite/">
+    <SiteShell active="/confidentialite/" alternateHref="/en/privacy/">
       <main className="page-content standard-page legal-page">
         <article className="legal-copy">
           <h1 className="eyebrow">CONFIDENTIALITÉ</h1>
