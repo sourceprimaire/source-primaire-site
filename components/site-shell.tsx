@@ -36,6 +36,7 @@ export function SiteShell({ active, alternateHref = '/en/', children, locale = '
           aria-label={isFrench ? 'Source Primaire, accueil' : 'Source Primaire, home'}
         >
           <span>SOURCE PRIMAIRE</span>
+          <span className="site-signature-dot" aria-hidden="true" />
         </a>
       </header>
 

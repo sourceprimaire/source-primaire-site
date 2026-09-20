@@ -88,10 +88,19 @@ textarea {
 
 .site-name {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  gap: 7px;
   font-size: var(--text-size);
   font-weight: 700;
   letter-spacing: 0.085em;
+}
+
+.site-signature-dot {
+  width: 6px;
+  height: 6px;
+  flex: none;
+  border-radius: 50%;
+  background: #e76f45;
 }
 
 .site-nav {
