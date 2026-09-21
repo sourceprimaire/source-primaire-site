@@ -339,7 +339,8 @@ textarea {
   align-items: start;
 }
 
-.research-composition h1 {
+.research-composition h1,
+.tools-copy h2 {
   margin: 0;
   color: var(--muted);
   font-size: var(--menu-size);
@@ -351,6 +352,10 @@ textarea {
 .research-intro-copy {
   grid-column: 2;
   grid-row: 1;
+}
+
+.tools-copy section + section {
+  margin-top: 38px;
 }
 
 .research-sequence {
