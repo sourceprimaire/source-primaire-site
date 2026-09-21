@@ -21,13 +21,21 @@ export default function OutilsPage() {
               </p>
             </section>
             <section aria-labelledby="inventaires-heading">
-              <h2 id="inventaires-heading" className="section-heading">INVENTAIRES &amp; RECHERCHES</h2>
+              <h2 id="inventaires-heading" className="section-heading">INVENTAIRES &amp; RECHERCHE</h2>
               <p className="research-lead">
                 Pour nos travaux d’inventaire et de recherche, nous utilisons une version
                 d’<strong>Omeka S</strong>, adaptée et enrichie selon les besoins spécifiques
                 de nos projets. Cet outil nous permet de structurer les données, de documenter
                 les œuvres et les objets, et de mettre en relation les informations, les images
                 et les sources.
+              </p>
+            </section>
+            <section aria-labelledby="sites-heading">
+              <h2 id="sites-heading" className="section-heading">SITES INTERNET</h2>
+              <p className="research-lead">
+                Les sites Internet que nous concevons pour nos clients sont hébergés sur{' '}
+                <strong>Cloudflare</strong>. Cette solution est gratuite et ne nécessite aucun
+                abonnement. Nos clients n’ont donc aucune mensualité d’hébergement à régler.
               </p>
             </section>
           </div>

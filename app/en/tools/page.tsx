@@ -29,6 +29,14 @@ export default function ToolsPage() {
                 images and sources.
               </p>
             </section>
+            <section aria-labelledby="websites-heading">
+              <h2 id="websites-heading" className="section-heading">WEBSITES</h2>
+              <p className="research-lead">
+                The websites we design for our clients are hosted on <strong>Cloudflare</strong>.
+                This solution is free and requires no subscription. Our clients therefore have
+                no monthly hosting fees to pay.
+              </p>
+            </section>
           </div>
         </div>
       </main>
