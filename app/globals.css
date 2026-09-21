@@ -10,6 +10,7 @@
   --content-top: 22.6vh;
   --text-size: 9pt;
   --body-size: var(--text-size);
+  --heading-copy-gap: 16px;
   --menu-size: var(--text-size);
   --media-column: clamp(300px, 25vw, 410px);
   --content-gap: clamp(32px, 3.8vw, 64px);
@@ -362,6 +363,10 @@ textarea {
   margin-top: 64px;
 }
 
+.tools-copy .research-lead {
+  margin-top: var(--heading-copy-gap);
+}
+
 .research-sequence {
   display: block;
   grid-column: 1;
@@ -382,7 +387,7 @@ textarea {
 
 .research-lead {
   width: 100%;
-  margin: 38px 0 0;
+  margin: var(--heading-copy-gap) 0 0;
   font-size: var(--menu-size);
   letter-spacing: 0.015em;
   line-height: 1.55;
@@ -428,7 +433,7 @@ textarea {
 }
 
 .research-index-section p {
-  margin-top: 18px;
+  margin-top: var(--heading-copy-gap);
   color: var(--ink);
 }
 
@@ -457,7 +462,7 @@ textarea {
 
 .editions-intro .lead {
   max-width: 720px;
-  margin: 42px 0 0;
+  margin: var(--heading-copy-gap) 0 0;
 }
 
 .editions-intro > div {
@@ -643,7 +648,7 @@ textarea {
 }
 
 .about-intro .prose {
-  margin-top: 42px;
+  margin-top: var(--heading-copy-gap);
 }
 
 .prose p {
@@ -796,7 +801,7 @@ textarea {
 }
 
 .contact-form {
-  margin-top: 42px;
+  margin-top: var(--heading-copy-gap);
 }
 
 .contact-form {
@@ -986,7 +991,7 @@ textarea {
   }
 
   .contact-details .contact-form {
-    margin-top: 24px;
+    margin-top: var(--heading-copy-gap);
   }
 
   .contact-page {
@@ -995,11 +1000,11 @@ textarea {
 
   .editions-intro .lead,
   .edition-copy {
-    margin-top: 24px;
+    margin-top: var(--heading-copy-gap);
   }
 
   .about-intro .prose {
-    margin-top: 24px;
+    margin-top: var(--heading-copy-gap);
   }
 
   .about-media {
@@ -1053,7 +1058,7 @@ textarea {
 
   .research-lead {
     width: min(100%, 390px);
-    margin-top: 24px;
+    margin-top: var(--heading-copy-gap);
   }
 
   .research-index {
