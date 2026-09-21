@@ -11,7 +11,7 @@ const services = [
   'Conservation',
   'Valorisation',
   'Transmission',
-  'Édition',
+  'Éditions',
 ];
 
 export default function AboutPage() {
