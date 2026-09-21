@@ -354,6 +354,10 @@ textarea {
   grid-row: 1;
 }
 
+.tools-copy {
+  grid-column: 1;
+}
+
 .tools-copy section + section {
   margin-top: 38px;
 }
