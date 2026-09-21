@@ -6,15 +6,15 @@ const navigation = {
   fr: [
     { href: '/recherche/', label: 'INVENTAIRES' },
     { href: '/editions/', label: 'ÉDITIONS' },
-    { href: '/a-propos/', label: 'À PROPOS' },
     { href: '/outils/', label: 'OUTILS' },
+    { href: '/a-propos/', label: 'À PROPOS' },
     { href: '/contact/', label: 'CONTACT' },
   ],
   en: [
     { href: '/en/inventories/', label: 'INVENTORIES' },
     { href: '/en/editions/', label: 'EDITIONS' },
-    { href: '/en/about/', label: 'ABOUT' },
     { href: '/en/tools/', label: 'TOOLS' },
+    { href: '/en/about/', label: 'ABOUT' },
     { href: '/en/contact/', label: 'CONTACT' },
   ],
 };
