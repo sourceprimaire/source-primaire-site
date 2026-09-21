@@ -21,7 +21,7 @@ export default function OutilsPage() {
               </p>
             </section>
             <section aria-labelledby="inventaires-heading">
-              <h2 id="inventaires-heading" className="section-heading">INVENTAIRES &amp; RECHERCHE</h2>
+              <h2 id="inventaires-heading" className="section-heading">INVENTAIRES &amp; RECHERCHES</h2>
               <p className="research-lead">
                 Pour nos travaux d’inventaire et de recherche, nous utilisons une version
                 d’<strong>Omeka S</strong>, adaptée et enrichie selon les besoins spécifiques

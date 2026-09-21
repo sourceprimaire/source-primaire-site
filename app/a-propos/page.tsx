@@ -4,7 +4,7 @@ import { SiteShell } from '@/components/site-shell';
 export const metadata: Metadata = { title: 'À propos' };
 
 const services = [
-  'Inventaire',
+  'Inventaires',
   'Recherches',
   'Documentation',
   'Numérisation',
