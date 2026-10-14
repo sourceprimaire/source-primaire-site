@@ -90,7 +90,7 @@ textarea {
 .site-name {
   display: flex;
   align-items: baseline;
-  gap: 7px;
+  gap: 3px;
   font-size: var(--text-size);
   font-weight: 700;
   letter-spacing: 0.085em;
